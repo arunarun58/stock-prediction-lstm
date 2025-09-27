@@ -191,14 +191,7 @@ If you have any questions or issues, please open an issue on GitHub.
 
 ```
 
-This README.md provides:
 
-1. **Clear overview** of the project
-2. **Easy installation** instructions
-3. **Simple usage** examples
-4. **Technical details** for developers
-5. **Important disclaimers**
-6. **Customization options**
 7. **Professional structure** suitable for GitHub
 
 The README is comprehensive yet concise, making it easy for users to understand and use your project while covering all essential information.
