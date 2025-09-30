@@ -22,7 +22,7 @@ end_date = datetime.today()
 start_date = end_date - timedelta(days=365*years)
 
 
-# 2️⃣ Fetch data from yfinance
+# Fetch data from yfinance
 
 print(
     f"Fetching data for {ticker} from {start_date.date()} to {end_date.date()}...")
@@ -124,7 +124,7 @@ X_tensor = torch.tensor(X_seq, dtype=torch.float32)
 y_tensor = torch.tensor(y_seq, dtype=torch.float32).squeeze()  # shape (N,)
 
 
-# 6️⃣ Train / Val / Test split
+# Train / Val / Test split
 
 train_size = int(len(X_tensor) * 0.7)
 val_size = int(len(X_tensor) * 0.1)
